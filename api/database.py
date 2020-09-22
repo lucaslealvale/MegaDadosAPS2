@@ -1,7 +1,9 @@
 import uuid
 
 class DBSession:
+    
     tasks = {}
+
     def __init__(self):
         self.tasks = DBSession.tasks
 
