@@ -2,8 +2,6 @@
 
 from fastapi import FastAPI
 
-# from .database import *
-# from .models import *
 from .routers import task
  
 
